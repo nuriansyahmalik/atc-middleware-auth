@@ -22,6 +22,7 @@ type Config struct {
 		Name     string `mapstructure:"NAME"`
 		Revision string `mapstructure:"REVISION"`
 		URL      string `mapstructure:"URL"`
+		JWTKey   string `mapstructure:"JWT_KEY"`
 	}
 
 	Cache struct {
